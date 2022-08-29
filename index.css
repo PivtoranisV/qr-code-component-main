@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 * {
     padding: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    padding: 20px;
+    padding: 25px;
 }
 
 img {
@@ -33,9 +33,23 @@ img {
 }
 
 .text {
-    margin: 30px;
-    font-family: 'Outfit', 'Lobster', cursive;
+    margin-top: 40px;
+    padding: 15px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.text h1 {
     font-weight: 700;
+    font-size: 25px;
+}
+
+.text p {
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+
 }
 
 .attribution {
